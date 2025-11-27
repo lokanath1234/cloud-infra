@@ -6,13 +6,13 @@ terraform {
   backend "s3" {
     bucket = "lk-bucket-terraform"
     key    = "path/to/my/key"
-    region = "us-west-2"
+    region = "us-east-1"
   }
 }
 
 
 provider "aws" {
-  region = "us-west-2"
+  region = "us-west-1"
 }
 
 data "aws_ami" "ubuntu" {
