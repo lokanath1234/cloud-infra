@@ -2,13 +2,13 @@
 #   region = "us-east-1"
 # }
 
-terraform {
-  backend "s3" {
-    bucket = "lk-bucket-terraform"
-    key    = "path/to/my/key"
-    region = "us-east-1"
-  }
-}
+# terraform {
+#   backend "s3" {
+#     bucket = "lk-bucket-terraform-2"
+#     key    = "path/to/my/key"
+#     region = "us-east-1"
+#   }
+# }
 
 
 provider "aws" {
